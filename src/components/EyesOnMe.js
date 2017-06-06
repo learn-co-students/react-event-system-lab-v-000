@@ -11,5 +11,5 @@ export default class EyesOnMe extends React.Component {
         return (
             <button onFocus={this.focusEvent} onBlur={this.blurEvent}></button>
         )
-    }
+    } 
 }
