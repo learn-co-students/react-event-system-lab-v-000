@@ -5,7 +5,7 @@ class Keypad extends React.Component {
     super();
   }
 
-  act = () => {
+  act = function() {
     console.log('Entering password...')
   }
 
