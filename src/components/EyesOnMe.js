@@ -3,7 +3,7 @@ import React from 'react';
 
 class EyesOnMe extends React.Component {
   good = () => {
-    console.log("Good");
+    console.log("Good!");
   }
 
   eyes = () => {
