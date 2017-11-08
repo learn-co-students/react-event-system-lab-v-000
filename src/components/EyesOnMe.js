@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-export default class EyesOnMe extends React.Component {
+export default class EyesOnMe extends Component {
   constructor() {
     super();
-
     this.onFocus = this.onFocus.bind(this);
     this.onBlur = this.onBlur.bind(this);
   }
