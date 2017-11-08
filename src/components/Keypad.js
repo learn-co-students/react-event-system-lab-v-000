@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default class Keypad extends React.Component {
+export default class Keypad extends Component {
   constructor() {
     super();
-
     this.handleInputPassword = this.handleInputPassword.bind(this);
   }
 
