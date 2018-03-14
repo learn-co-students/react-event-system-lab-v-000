@@ -2,11 +2,11 @@ import React from 'react'
 
 export default class EyesOnMe extends React.Component {
   
-  focus() {
+  focus = () => {
     console.log('Good!')
   }
   
-  blur() {
+  blur = () => {
     console.log('Hey! Eyes on me!')
   }
   
