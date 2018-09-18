@@ -6,7 +6,12 @@ export default class Keypad extends Component {
 
   render() {
     return (
-      <input type="password" onKeyUp={this.passwordMessage}></input>
+      <div>
+        <input
+          type="password"
+          onKeyUp={this.passwordMessage}
+        />
+      </div>
     )
   }
 }

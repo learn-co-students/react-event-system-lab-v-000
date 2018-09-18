@@ -7,7 +7,10 @@ export default class EyesOnMe extends Component {
 
   render() {
     return (
-      <button onFocus= {this.focusMessage} onBlur= {this.blurMessage} ></button>
+      <button
+        onFocus= {this.focusMessage}
+        onBlur= {this.blurMessage}>
+      </button>
     )
   }
 }
