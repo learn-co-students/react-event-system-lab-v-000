@@ -11,5 +11,6 @@ render(){
   return (
 <input type="password" onKeyUp={this.inputPassword} />
   )
+
 }
 }
