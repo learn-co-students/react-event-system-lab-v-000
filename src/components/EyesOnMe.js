@@ -2,7 +2,15 @@
 import React, { Component } from 'react'
 
 export default class EeysOnMe extends Component {
+    handleFocus = () => {
+        console.log('Good!')
+    }
+
+    handleBlur = () => {
+        console.log('Hey! Eyes on me!')
+    }
+
     render() {
-        return <button>In The Club</button>
+        return <button onFocus={this.handleFocus} onBlur={this.handleBlur}>In The Club</button>
     }
 }
