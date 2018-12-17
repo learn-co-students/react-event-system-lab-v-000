@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import Keypad from './components/Keypad';
-import EyesOnMe from './components/EyesOnMe';
+import Keypad from './components/Keypad'
+import EyesOnMe from './components/EyesOnMe'
 
 ReactDOM.render(
   <div>
@@ -10,4 +10,4 @@ ReactDOM.render(
     <EyesOnMe />
   </div>,
   document.getElementById('global')
-);
+)
