@@ -1,18 +1,17 @@
-// try and do with toggle
-import React from 'react';
+import React, {Component} from 'react';
 
-export default class EyesOnMe extends React.Component {
-
-  onFocus = () => {
+export default class EyesOnMe extends Component {
+  handleFocus = () => {
     console.log('Good!')
   }
-  onBlur = () => {
+
+  handleBlur = () => {
     console.log('Hey! Eyes on me!')
   }
 
-  render () {
-    return (
-      <button onFocus={this.focus} onBlur={this.blur}>Look here</button>
+  render() {
+    return(
+      <button onFocus={this.handleFocus} onBlur={this.handleBlur}>Button</button>
     )
   }
 }
