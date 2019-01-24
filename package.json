@@ -19,6 +19,7 @@
     "babel-preset-stage-1": "^6.24.1",
     "chai": "^3.5.0",
     "enzyme": "^3.1.0",
+    "mocha-multi": "^1.0.1",
     "enzyme-adapter-react-16": "^1.0.1",
     "expect": "^21.2.1",
     "react": "^16.0.0",
