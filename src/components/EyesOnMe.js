@@ -1,6 +1,7 @@
 import React from 'react';
 
 class EyesOnMe extends React.Component {
+  
   input1 = () => {
     console.log('Good!');
   }
@@ -16,8 +17,6 @@ class EyesOnMe extends React.Component {
       </div>
     );
   }
-
-
 }
 
 export default EyesOnMe;
