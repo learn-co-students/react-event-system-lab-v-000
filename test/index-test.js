@@ -1,12 +1,13 @@
 import React from 'react';
 import { expect } from 'chai';
 import Enzyme, { shallow } from 'enzyme';
+import { configure } from 'enzyme';
 import sinon from 'sinon';
-import Adapter from 'enzyme-adapter-react-16';
+// import Adapter from 'enzyme-adapter-react-16';
 import Keypad from '../src/components/Keypad';
 import EyesOnMe from '../src/components/EyesOnMe';
 
-Enzyme.configure({ adapter: new Adapter() })
+// Enzyme.configure({ adapter: new Adapter() })
 
 const spy = sinon.spy(console, 'log');
 
