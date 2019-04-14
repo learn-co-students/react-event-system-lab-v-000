@@ -5,9 +5,9 @@ import Keypad from './components/Keypad';
 import EyesOnMe from './components/EyesOnMe';
 
 ReactDOM.render(
-  <div>
-    <Keypad />
-    <EyesOnMe />
-  </div>,
-  document.getElementById('global')
+	<div>
+		<Keypad />
+		<EyesOnMe />
+	</div>,
+	document.getElementById('global')
 );
