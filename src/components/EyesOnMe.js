@@ -4,16 +4,17 @@ import React from 'react'
 //create component
 class EyesOnMe extends React.Component {
 
-  //make handler for focus to print correct msg
-  handleOnFocus = () => console.log('Good!')
+  handleFocus = () => {
+    console.log('Good!')
+  }
 
-  //make handler for blur to print correct msg
-  handleOnBlur = () => console.log('Hey! Eyes on me!')
+  handleBlur = () => {
+    console.log('Hey! Eyes on me!')
+  }
 
-  render () {
-      //render 1 button listening for 2 separate events
+  render() {
     return (
-        <button onFocus={this.handleOnFocus} onBlur={this.handleOnBlur}>Focus on Me</button>
+      <button onFocus={this.handleFocus} onBlur={this.handleBlur}>Look at Me! </button>
     )
   }
 }
