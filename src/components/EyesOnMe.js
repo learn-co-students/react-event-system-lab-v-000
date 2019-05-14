@@ -1,20 +1,21 @@
 // Code EyesOnMe Component Here
-import React from 'react'
+import React, { Component } from 'react'
 
-//create component
-class EyesOnMe extends React.Component {
+class EyesOnMe extends Component {
 
-  handleFocus = () => {
+  handleOnFocus = () => {
     console.log('Good!')
   }
 
-  handleBlur = () => {
+  handleOnBlur = () => {
     console.log('Hey! Eyes on me!')
-  }
+  } 
 
   render() {
-    return (
-      <button onFocus={this.handleFocus} onBlur={this.handleBlur}>Look at Me! </button>
+    return(
+      <div>
+        <button onFocus={this.handleOnFocus} onBlur={this.handleOnBlur}>Look at me!</button>      
+      </div>
     )
   }
 }
