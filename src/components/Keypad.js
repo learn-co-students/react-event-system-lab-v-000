@@ -2,9 +2,9 @@
 import React, { Component } from 'react';
 
 
-export deafult class Keypad extends Component {
+export default class Keypad extends Component {
   enterPassword = () => {
-    console.log("Entering Password...")
+    console.log("Entering password...")
   }
 
 
