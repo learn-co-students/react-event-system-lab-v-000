@@ -11,12 +11,14 @@ export default class Keypad extends Component {
     this.state = {}
   }
 
-
+  keyUp = () => {
+    console.log('Entering password...')
+  }
 
   render() {
     return (
       <div className="">
-        <input type="password" onKeyUp={console.log("Entering password")}/>
+        <input type="password" onKeyUp={this.keyUp}/>
       </div>
     )
   }
