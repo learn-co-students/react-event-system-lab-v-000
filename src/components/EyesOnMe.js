@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 
 class EyesOnMe extends Component{
-    handleOnFocus = ()=>{console.log("Good!")}
-    handleOnBlur = () =>{console.log("Hey! Eyes on me!")}
+    handleOnFocus = ()=>{console.log("Good!")};
+    handleOnBlur = () =>{console.log("Hey! Eyes on me!")};
     render(){
 
         
