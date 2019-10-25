@@ -7,7 +7,7 @@ import EyesOnMe from './components/EyesOnMe';
 ReactDOM.render(
   <div>
     <Keypad />
-    <EyesOnMe />
+     <EyesOnMe />
   </div>,
   document.getElementById('global')
 );
