@@ -13,9 +13,9 @@ export default class EyesOnMe extends Component {
   }
 
   render() {
-    let message = this.isBlurred ? 'Hey! Eyes on me!' : 'Good!'
+    const message = this.isBlurred ? 'Hey! Eyes on me!' : 'Good!'
     return (
-    <button onFocus={this.isFocused} onBlur={this.isBlurred}>{message}</button>
+      <button onFocus={this.isFocused} onBlur={this.isBlurred}>{message}</button>
     )
   }
 }
