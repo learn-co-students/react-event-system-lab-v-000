@@ -3,7 +3,7 @@ import React from 'react'
 
 class EyesOnMe extends React.Component {
 
-    onFocus = () => console.log('Good')
+    onFocus = () => console.log('Good!')
 
     onBlur = () => console.log('Hey! Eyes on me!')
 
@@ -11,9 +11,11 @@ class EyesOnMe extends React.Component {
     render() {
         return(
             <button onFocus={this.onFocus} onBlur={this.onBlur}>
-            
+            Eyes
             </button>
         )
     }
     
 }
+
+export default EyesOnMe;
